@@ -1,0 +1,21 @@
+[
+  {
+    "id": "9c21df92eb537734",
+    "filename": "1763455648992-365619177-Rahul resume (1) (2).pdf",
+    "originalname": "Rahul resume (1) (2).pdf",
+    "parsed": {
+      "text": "\n\nRahul Singh\n\nPortfolio|\n§\nRahuls2642|\nï\nRahuls2642|\n#\nrahuls6408@gmail.com\n*\nFaridabad,Haryana|\nH\n+919718876978\nSummary\nFull-stack  developer  focused  on  building  responsive,  user-friendly  web  applications  with  React,  JavaScript,  and  Node.js.\nSkilled  in  connecting  front-end  interfaces  with  back-end  APIs  and  databases.   Passionate  about  writing  clean  code  and\ncreating intuitive, efficient user experiences.\nTechnical skills\n•Languages:JavaScript (ES6+), HTML5, CSS3\n•Frameworks/Libraries:React.js, Express.js, Mongoose.js\n•Databases:MongoDB\n•Runtimes:Node.js\n•Tools:Git, GitHub, npm, Postman, VS Code\nProjects\nMovie cineLive Demo|GitHub\n•A full-stack movie web application for browsing, reviewing, and managing personal watchlists.\n•Built complete CRUD functionality with secure user authentication using JWT and bcrypt.\n•Integrated TMDb API to fetch live movie data, posters, and details\n•Developed a personalized user dashboard displaying watchlist stats, watched movies, and submitted reviews.\n•Technologies:  MERN Stack, Express.js, MongoDB, React.js, Node.js, Tailwind CSS.\nGemini CloneLive Demo|GitHub\n•A functional front-end clone of Google’s Gemini AI that replicates real-time chat and responses.\n•Integrated theGemini APIto fetch dynamic responses and display them in a chat-style interface.\n•Built withReact.js,Vite, andTailwind CSSfor fast, modern performance.\nPortfolio WebsiteLive Demo|GitHub\n•Designed and developed a personal portfolio website to showcase projects, skills, and contact information.\n•Implemented a clean, responsive design usingReact.jsandTailwind CSS.\n•Focused on performance, accessibility, and smooth navigation for an engaging user experience.\n•Deployed on Vercel with continuous updates via GitHub, ensuring scalability and modern UI consistency across devices.\nEducation\nJ.C. Bose University of Science and Technology, YMCAAugust 2024\n•BCA in Data Science\n•CGPA:7.1/10\n12th Grade, Science - CBSE Board2020\n•Percentage:80%\nCertifications\n•The Web Developer Bootcamp — Angela Yu (2024)\n•The Complete JavaScript Course — Jonas Schmedtmann (2024)\n•Full stack - Colt steele (2025)",
+      "skills": [
+        "javascript",
+        "react",
+        "node",
+        "express",
+        "mongodb",
+        "css",
+        "git"
+      ],
+      "wordCount": 290
+    },
+    "createdAt": "2025-11-18T08:47:29.413Z"
+  }
+]
