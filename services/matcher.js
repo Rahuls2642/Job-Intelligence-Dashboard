@@ -1,7 +1,6 @@
 import naturalPkg from 'natural';
 const { TfIdf, WordTokenizer } = naturalPkg;
 
-// returns array of { jobId, title, score, matchedTokens }
 export function matchTextWithJobs(resumeText, jobs) {
   const tokenizer = new WordTokenizer();
 

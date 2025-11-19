@@ -5,7 +5,7 @@ import upload from '../middleware/upload.middleware.js';
 
 const router = express.Router();
 
-// protected upload (you can remove auth for now if you haven't set up users)
+
 router.post('/', auth, upload.single('file'), uploadResume);
 router.get('/:id', auth, getResume);
 

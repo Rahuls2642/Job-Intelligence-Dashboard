@@ -6,6 +6,7 @@ import connectDB from './config/db.js';
 import authRoutes from './routes/auth.routes.js';
 import resumesRoutes from './routes/resumes.routes.js';
 import matchRoutes from './routes/match.routes.js';
+import jobRoutes from './routes/jobs.routes.js';
 
 dotenv.config();
 
@@ -14,7 +15,12 @@ const PORT = process.env.PORT || 5000;
 
 // middleware
 app.use(cors());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(cors(
+  { origin: 'http://localhost:5173' }
+));
+
 
 // db connect
 (async () => {
@@ -26,7 +32,8 @@ app.use(express.json());
     app.use('/api/auth', authRoutes);
     app.use('/api/resumes', resumesRoutes);
     app.use('/api/match', matchRoutes);
-
+    app.use('/api/jobs', jobRoutes);
+    
     // health
     app.get('/', (req, res) => {
       res.json({ ok: true, message: "Backend is running" });
